@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 
 const UserDetails = () => {
+  // URL Params
   const { userId } = useParams();
   // const userId = params.userId
 
